@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre el Perú: destinos turísticos, cultura viva, naturaleza, gastronomía y consejos para planificar tu viaje.">
+  <meta name="theme-color" content="#0b2b26">
+  <title>Perú para el mundo | Una aventura extraordinaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Perú para el mundo, inicio">
+      <span class="brand-mark">P<span>+</span></span>
+      <span class="brand-name">PERÚ <small>PARA EL MUNDO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a href="#destinos">Destinos</a><a href="#experiencias">Experiencias</a><a href="#rutas">Rutas sugeridas</a><a href="#consejos">Planifica</a>
+    </nav>
+    <a class="header-cta" href="#destinos">Explorar Perú <span>↗</span></a>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-image" role="img" aria-label="Vista panorámica de Machu Picchu entre montañas verdes"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> Un país, infinitas historias</p>
+        <h1>Hay lugares que<br>te cambian la <em>mirada.</em></h1>
+        <p class="hero-copy">De la costa del Pacífico a los Andes y la Amazonía: descubre un Perú de culturas milenarias, paisajes extraordinarios y sabores que se quedan contigo.</p>
+        <div class="hero-actions"><a class="button button-light" href="#destinos">Descubrir destinos <span>↘</span></a><a class="text-link" href="#experiencias">Conoce nuestras experiencias <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Explora con curiosidad. Viaja con respeto.</span></div>
+      </div>
+      <div class="hero-stamp"><span>3 REGIONES</span><strong>1</strong><span>GRAN DESTINO</span></div>
+      <div class="hero-bottom"><span>01 / 06 — COSTA · ANDES · AMAZONÍA</span><span>DESLIZA PARA EXPLORAR ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="section-kicker">EL PERÚ TE ESPERA <span>✳</span></div>
+      <div class="intro-grid"><h2>Un viaje por la<br><em>diversidad.</em></h2><div><p class="intro-lead">En el Perú, cada paisaje cuenta una historia y cada encuentro revela una forma distinta de entender el mundo.</p><p>Recorre ciudades llenas de memoria, camina entre montañas sagradas, navega por ecosistemas únicos y conoce tradiciones que siguen vivas. Esta guía reúne destinos emblemáticos e ideas prácticas para empezar a planificar tu aventura.</p></div></div>
+      <div class="stat-row"><div><strong>3</strong><span>grandes regiones<br>naturales</span></div><div><strong>13</strong><span>bienes peruanos en la<br>Lista del Patrimonio Mundial</span></div><div><strong>∞</strong><span>formas de vivir<br>el viaje</span></div><p>El patrimonio reconocido por la UNESCO incluye lugares culturales, naturales y mixtos. La experiencia peruana va mucho más allá de un solo destino.</p></div>
+    </section>
+
+    <section class="destinations-section" id="destinos">
+      <div class="section-wrap">
+        <div class="section-heading"><div><div class="section-kicker">ESCOGE TU PRÓXIMA HISTORIA <span>✳</span></div><h2>Destinos que<br><em>dejan huella.</em></h2></div><p>Desde maravillas arqueológicas hasta reservas naturales: encuentra el paisaje y la experiencia que más conectan contigo.</p></div>
+        <div class="filter-bar" aria-label="Filtrar destinos">
+          <div class="filter-buttons" role="group" aria-label="Categorías de destino">
+            <button class="filter-btn active" data-filter="todos">Todos <span>09</span></button>
+            <button class="filter-btn" data-filter="cultura">Cultura</button>
+            <button class="filter-btn" data-filter="naturaleza">Naturaleza</button>
+            <button class="filter-btn" data-filter="aventura">Aventura</button>
+            <button class="filter-btn" data-filter="costa">Costa</button>
+          </div>
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="destination-search" type="search" placeholder="Busca un destino..." aria-label="Buscar destinos"></label>
+        </div>
+        <div class="destination-grid" id="destination-grid">
+          <article class="destination-card featured-card" data-category="cultura aventura" data-name="machu picchu cusco">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Más información oficial sobre Machu Picchu"><img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1400&q=85" alt="Ciudadela inca de Machu Picchu rodeada de montañas" loading="lazy"><span class="image-label">PATRIMONIO MUNDIAL UNESCO</span><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Cusco · Andes</span><span>01 / 09</span></div><h3>Machu Picchu</h3><p>Una obra maestra de la arquitectura inca, integrada en un entorno de montaña y bosque tropical. Sus terrazas, recintos y vistas revelan la extraordinaria relación entre ingeniería y paisaje.</p><div class="card-footer"><span class="tag">Historia viva</span><a href="https://www.machupicchu.gob.pe/" target="_blank" rel="noopener">Planifica tu visita ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="cultura aventura" data-name="cusco valle sagrado">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Cusco"><img src="https://images.unsplash.com/photo-1531065074-4b0f4b1f2b6f?auto=format&fit=crop&w=1000&q=85" alt="Paisaje andino de Cusco y arquitectura tradicional" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Cusco · Andes</span><span>02 / 09</span></div><h3>Cusco y el Valle Sagrado</h3><p>Calles de herencia inca y colonial, mercados, terrazas agrícolas y pueblos andinos. Ideal para conocer la historia y la cultura viva del sur peruano.</p><div class="card-footer"><span class="tag">Cultura</span><a href="https://www.peru.travel/es" target="_blank" rel="noopener">Explorar ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="costa naturaleza aventura" data-name="paracas islas ballestas ica">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Paracas"><img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1000&q=85" alt="Costa desértica y aguas del océano Pacífico" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Ica · Costa</span><span>03 / 09</span></div><h3>Paracas e Islas Ballestas</h3><p>Desierto, mar y vida silvestre se encuentran en la Reserva Nacional de Paracas. Las excursiones marinas permiten observar aves y, según la temporada, otros animales costeros.</p><div class="card-footer"><span class="tag">Naturaleza costera</span><a href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener">Visita responsable ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="naturaleza aventura" data-name="huaraz cordillera blanca huascaran ancash">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Áncash"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85" alt="Cumbres nevadas de la cordillera andina" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Áncash · Andes</span><span>04 / 09</span></div><h3>Huaraz y la Cordillera Blanca</h3><p>Lagunas turquesas, glaciares y senderos de alta montaña dentro del entorno del Parque Nacional Huascarán. Requiere aclimatación y preparación física según la ruta.</p><div class="card-footer"><span class="tag">Trekking</span><a href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener">Conocer el parque ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="cultura costa" data-name="lima centro historico gastronomia">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Lima"><img src="https://images.unsplash.com/photo-1531968455001-5c5272a41129?auto=format&fit=crop&w=1000&q=85" alt="Arquitectura urbana histórica de Lima" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Lima · Costa</span><span>05 / 09</span></div><h3>Lima, historia y sabor</h3><p>La capital combina un centro histórico reconocido por la UNESCO, museos, barrios junto al Pacífico y una gastronomía marcada por el encuentro de múltiples tradiciones.</p><div class="card-footer"><span class="tag">Ciudad y cocina</span><a href="https://www.peru.travel/es" target="_blank" rel="noopener">Descubrir Lima ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="cultura naturaleza" data-name="arequipa colca volcan misti">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Arequipa"><img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1000&q=85" alt="Paisaje volcánico y arquitectura de piedra en los Andes peruanos" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Arequipa · Andes</span><span>06 / 09</span></div><h3>Arequipa y el Colca</h3><p>La “Ciudad Blanca” destaca por sus construcciones de sillar y su centro histórico. En el valle del Colca, terrazas agrícolas y paisajes profundos acompañan la observación del cóndor andino.</p><div class="card-footer"><span class="tag">Paisaje y patrimonio</span><a href="https://www.peru.travel/es" target="_blank" rel="noopener">Explorar ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="naturaleza aventura" data-name="tambopata amazonía madre de dios">
+            <a class="card-image" href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener" aria-label="Información de áreas naturales protegidas"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1000&q=85" alt="Bosque tropical amazónico de vegetación exuberante" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Madre de Dios · Amazonía</span><span>07 / 09</span></div><h3>Tambopata y la Amazonía</h3><p>Una puerta a la biodiversidad amazónica: bosques, ríos y oportunidades de observación de fauna con guías locales. La vida silvestre se observa sin alimentarla ni perturbarla.</p><div class="card-footer"><span class="tag">Biodiversidad</span><a href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener">Áreas protegidas ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="cultura naturaleza" data-name="puno lago titicaca uros">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de Puno"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1000&q=85" alt="Paisaje de alta montaña y lago" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Puno · Altiplano</span><span>08 / 09</span></div><h3>Lago Titicaca</h3><p>El altiplano comparte un lago de gran importancia cultural y ecológica. Las visitas comunitarias permiten acercarse a tradiciones locales siempre con respeto y acuerdos claros.</p><div class="card-footer"><span class="tag">Cultura viva</span><a href="https://www.peru.travel/es" target="_blank" rel="noopener">Conocer Puno ↗</a></div></div>
+          </article>
+          <article class="destination-card" data-category="cultura costa" data-name="nazca lineas geoglifos ica">
+            <a class="card-image" href="https://www.peru.travel/es" target="_blank" rel="noopener" aria-label="Información turística de las Líneas de Nasca"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=85" alt="Paisaje árido y vasto bajo el cielo del desierto" loading="lazy"><span class="image-arrow">↗</span></a>
+            <div class="card-body"><div class="card-meta"><span>Ica · Costa sur</span><span>09 / 09</span></div><h3>Líneas y geoglifos de Nasca</h3><p>En el desierto, enormes figuras trazadas sobre la superficie forman uno de los paisajes arqueológicos más singulares del mundo. Para protegerlas, respeta los accesos autorizados.</p><div class="card-footer"><span class="tag">Arqueología</span><a href="https://whc.unesco.org/es/list/700/" target="_blank" rel="noopener">UNESCO ↗</a></div></div>
+          </article>
+        </div>
+        <p class="no-results" id="no-results" hidden>No encontramos destinos con esa búsqueda. Prueba con otro nombre o categoría.</p>
+        <p class="image-note">Las fotografías se cargan desde Unsplash. Si una imagen no coincide visualmente o deja de estar disponible, reemplaza su URL por una fotografía verificada del destino y conserva la atribución correspondiente.</p>
+      </div>
+    </section>
+
+    <section class="experiences section-wrap" id="experiencias">
+      <div class="section-heading"><div><div class="section-kicker">MÁS QUE UN LUGAR <span>✳</span></div><h2>Viaja a tu<br><em>manera.</em></h2></div><p>Elige el ritmo de tu aventura: cultura, naturaleza, sabores o caminos que ponen a prueba tu espíritu explorador.</p></div>
+      <div class="experience-grid">
+        <a class="experience-tile tile-food" href="https://www.peru.travel/es" target="_blank" rel="noopener"><span class="tile-number">01 / SABORES</span><div><h3>Una mesa,<br>muchos mundos.</h3><p>Prueba la diversidad culinaria regional, desde pescados y mariscos hasta papas nativas, maíces, ajíes y cocina amazónica.</p><span class="tile-link">Explorar gastronomía ↗</span></div></a>
+        <a class="experience-tile tile-culture" href="https://whc.unesco.org/es/list/?iso=pe" target="_blank" rel="noopener"><span class="tile-number">02 / CULTURA</span><div><h3>Historias que<br>siguen vivas.</h3><p>Conoce sitios arqueológicos, centros históricos, artesanía, música y celebraciones con contexto y respeto.</p><span class="tile-link">Ver patrimonio ↗</span></div></a>
+        <a class="experience-tile tile-nature" href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener"><span class="tile-number">03 / NATURALEZA</span><div><h3>Respira el<br>paisaje.</h3><p>Explora áreas naturales protegidas y ecosistemas que van desde el litoral hasta los bosques amazónicos.</p><span class="tile-link">Viajar responsablemente ↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="route-section" id="rutas">
+      <div class="section-wrap route-wrap">
+        <div class="section-kicker">TU PRIMER ITINERARIO <span>✳</span></div>
+        <div class="section-heading"><h2>Tres rutas para<br><em>empezar.</em></h2><p>Son ideas orientativas, no paquetes cerrados. Ajusta los días a tus traslados, temporada, presupuesto y ritmo de viaje.</p></div>
+        <div class="route-list">
+          <article class="route-item"><div class="route-days">05–07 <small>DÍAS</small></div><div class="route-main"><span class="route-type">CULTURA ANDINA</span><h3>Cusco · Valle Sagrado · Machu Picchu</h3><p>Dedica tiempo a aclimatarte a la altitud, visita Cusco y el Valle Sagrado, y reserva con anticipación el ingreso a Machu Picchu y los transportes asociados.</p></div><div class="route-icon">⌁</div></article>
+          <article class="route-item"><div class="route-days">03–05 <small>DÍAS</small></div><div class="route-main"><span class="route-type">COSTA Y DESIERTO</span><h3>Lima · Paracas · Ica</h3><p>Combina gastronomía y patrimonio urbano con una excursión por la Reserva Nacional de Paracas y paisajes desérticos de Ica.</p></div><div class="route-icon">☼</div></article>
+          <article class="route-item"><div class="route-days">04–06 <small>DÍAS</small></div><div class="route-main"><span class="route-type">MONTAÑA Y NATURALEZA</span><h3>Huaraz · Cordillera Blanca</h3><p>Elige caminatas adecuadas a tu experiencia, considera días de aclimatación y consulta condiciones locales antes de salir a rutas de altura.</p></div><div class="route-icon">△</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="planning section-wrap" id="consejos">
+      <div class="planning-intro"><div class="section-kicker">ANTES DE HACER LAS MALETAS <span>✳</span></div><h2>Un buen viaje<br>empieza con<br><em>información.</em></h2><p>Los horarios, accesos, tarifas, restricciones y condiciones de las rutas pueden cambiar. Verifica los datos en fuentes oficiales justo antes de viajar.</p><a class="button button-dark" href="https://www.peru.travel/es" target="_blank" rel="noopener">Portal oficial Perú Travel ↗</a></div>
+      <div class="tips-list">
+        <article><span class="tip-icon">01</span><div><h3>Reserva en canales oficiales</h3><p>Para Machu Picchu, revisa disponibilidad, circuitos y reglas vigentes en el portal oficial. No des por hecho que todas las rutas o entradas están disponibles.</p><a href="https://www.machupicchu.gob.pe/" target="_blank" rel="noopener">machupicchu.gob.pe ↗</a></div></article>
+        <article><span class="tip-icon">02</span><div><h3>Respeta la altitud</h3><p>En destinos de altura, asciende gradualmente si es posible, descansa y evita exigirte demasiado al llegar. Si te sientes mal, detén la actividad y busca orientación médica.</p></div></article>
+        <article><span class="tip-icon">03</span><div><h3>Consulta clima y temporadas</h3><p>La costa, los Andes y la Amazonía tienen condiciones distintas. Lleva ropa por capas, protección solar y equipo apropiado para el destino y la época.</p><a href="https://www.senamhi.gob.pe/" target="_blank" rel="noopener">SENAMHI: información meteorológica ↗</a></div></article>
+        <article><span class="tip-icon">04</span><div><h3>Viaja con respeto</h3><p>Contrata operadores formales, pide permiso antes de fotografiar personas, reduce residuos, respeta las normas de las áreas protegidas y compra a emprendimientos locales.</p><a href="https://www.sernanp.gob.pe/" target="_blank" rel="noopener">SERNANP: áreas naturales protegidas ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-bg"></div><div class="closing-content"><p class="eyebrow"><span></span> Tu historia también empieza aquí</p><h2>El Perú no solo<br>se visita. <em>Se vive.</em></h2><p>Abre el mapa, sigue tu curiosidad y deja espacio para lo inesperado.</p><a class="button button-light" href="https://www.peru.travel/es" target="_blank" rel="noopener">Empieza a planificar ↗</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">P<span>+</span></span><span class="brand-name">PERÚ <small>PARA EL MUNDO</small></span></a><p>Una guía para descubrir la riqueza natural y cultural del Perú.</p><div class="footer-links"><a href="https://www.peru.travel/es" target="_blank" rel="noopener">Perú Travel</a><a href="https://whc.unesco.org/es/list/?iso=pe" target="_blank" rel="noopener">UNESCO</a><a href="#consejos">Consejos de viaje</a></div><small class="copyright">© <span id="year"></span> Perú para el mundo · Proyecto informativo independiente</small></footer>
+</body>
+</html>
